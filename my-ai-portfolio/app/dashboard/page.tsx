@@ -5,11 +5,11 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recha
 // This is our dummy data. You can change these numbers to whatever you want!
 const data = [
   { name: 'Python', hours: 100 },
-  { name: 'C++', hours: 80 },
-  { name: 'JavaScript', hours: 50 },
-  { name: 'React', hours: 20 },
+  { name: 'C++', hours: 30 },
+  { name: 'JavaScript', hours: 30 },
+  { name: 'React', hours: 15 },
   { name: 'SQL', hours: 45 },
-  { name: 'Java (OOP)', hours: 70 },
+  { name: 'Java (OOP)', hours: 35 },
   
 ];
 

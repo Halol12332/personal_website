@@ -34,15 +34,15 @@ export default function Home() {
           Data Scientist & Software Engineer. I bridge the gap between machine learning models and scalable web applications.
         </p>
         <div className="flex gap-4">
-          <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="px-6 py-3 bg-zinc-900 text-white rounded-md font-medium hover:bg-zinc-800 transition-colors">
+          <a href="https://github.com/halol12332" target="_blank" rel="noreferrer" className="px-6 py-3 bg-zinc-900 text-white rounded-md font-medium hover:bg-zinc-800 transition-colors">
             GitHub
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer" className="px-6 py-3 bg-white text-zinc-900 border border-zinc-200 rounded-md font-medium hover:bg-zinc-100 transition-colors shadow-sm">
+          <a href="https://linkedin.com/in/jayahakimprajna" target="_blank" rel="noreferrer" className="px-6 py-3 bg-white text-zinc-900 border border-zinc-200 rounded-md font-medium hover:bg-zinc-100 transition-colors shadow-sm">
             LinkedIn
           </a>
         </div>
       </section>
-      
+
       {/* Interactive About Me Section */}
       <AboutMe />
 
