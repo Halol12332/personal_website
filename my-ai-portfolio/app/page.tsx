@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import AboutMe from './components/AboutMe'; // Import the component here!
 
 export default function Home() {
   const projects = [
@@ -41,6 +42,9 @@ export default function Home() {
           </a>
         </div>
       </section>
+      
+      {/* Interactive About Me Section */}
+      <AboutMe />
 
       {/* Projects Section */}
       <section className="max-w-5xl mx-auto px-6 py-16 border-t border-zinc-200">
