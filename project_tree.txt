@@ -1,0 +1,37 @@
+📁 holy_trinity/
+├── 📁 backend/
+│   ├── 📄 app.py
+│   ├── 📄 rtdetr.pt
+│   └── 📄 yolov8.pt
+├── 📁 my-ai-portfolio/
+│   ├── 📁 app/
+│   │   ├── 📁 ai-playground/
+│   │   │   └── 📄 page.tsx
+│   │   ├── 📁 components/
+│   │   │   ├── 📄 AboutMe.tsx
+│   │   │   └── 📄 WIN_20260403_13_27_16_Pro.jpg
+│   │   ├── 📁 dashboard/
+│   │   │   └── 📄 page.tsx
+│   │   ├── 📄 favicon.ico
+│   │   ├── 📄 globals.css
+│   │   ├── 📄 layout.tsx
+│   │   └── 📄 page.tsx
+│   ├── 📁 public/
+│   │   ├── 📄 file.svg
+│   │   ├── 📄 globe.svg
+│   │   ├── 📄 next.svg
+│   │   ├── 📄 profile.jpg
+│   │   ├── 📄 vercel.svg
+│   │   └── 📄 window.svg
+│   ├── 📄 .gitignore
+│   ├── 📄 AGENTS.md
+│   ├── 📄 CLAUDE.md
+│   ├── 📄 eslint.config.mjs
+│   ├── 📄 next-env.d.ts
+│   ├── 📄 next.config.ts
+│   ├── 📄 package-lock.json
+│   ├── 📄 package.json
+│   ├── 📄 postcss.config.mjs
+│   └── 📄 tsconfig.json
+├── 📄 project_tree.txt
+└── 📄 README.md

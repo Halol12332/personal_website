@@ -54,10 +54,14 @@ export default function AIPlayground() {
       if (!response.ok) throw new Error('Detection failed');
       const data = await response.json();
       
-      // Expected backend format: 
-      // { predictions: [{ label: "Tomato", x: 20, y: 30, width: 15, height: 25 }] }
-      // Notice we map the AI's results directly into our interactive boxes state!
-      const aiBoxes = data.predictions.map((pred: any, index: number) => ({
+      interface AIPrediction {
+        label: string;
+        x: number;
+        y: number;
+        width: number;
+        height: number;
+      } 
+      const aiBoxes = data.predictions.map((pred: AIPrediction, index: number) => ({
         id: `ai-${index}-${Math.random().toString(36).substr(2, 5)}`,
         x: pred.x,
         y: pred.y,

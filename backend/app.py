@@ -6,8 +6,7 @@ import io
 
 app = Flask(__name__)
 # 🚨 CRITICAL: This line allows localhost:3000 (React) to talk to localhost:5000 (Flask)
-CORS(app) 
-
+CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}}) # Change to your Vercel URL later
 # Load both models at startup
 models = {
     'rtdetr': YOLO('rtdetr.pt'),
